@@ -1,0 +1,102 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.music-container {
+  background-color: #282828;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+  width: 40vw;
+}
+.img-container {
+  position: relative;
+  width: 100px;
+  margin: 10px 75px;
+}
+.img-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: inherit;
+}
+.music-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.music-info h4 {
+  color: #fff;
+  font-weight: 400;
+}
+.music-info h5 {
+  color: #b3b3b3;
+  font-weight: 200;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  z-index: 1;
+}
+.action-btn {
+  background-color: #282828;
+  border: none;
+  color: #b3b3b3;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-btn:hover {
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+.action-btn:focus {
+  outline: 0;
+}
+.action-btn-big {
+  border: 1px solid #b3b3b3;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 10px;
+}
+.action-btn-big:hover {
+  border: 1px solid #fff;
+  transition: 0.2s ease-in;
+}
+.progress-container {
+  background: #404040;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+.progress {
+  background: #fff;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
