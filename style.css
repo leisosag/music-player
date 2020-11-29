@@ -23,12 +23,12 @@ body {
   padding: 20px;
   position: relative;
   z-index: 10;
-  width: 40vw;
+  width: 30vw;
 }
 .img-container {
   position: relative;
   width: 100px;
-  margin: 10px 75px;
+  margin: 10px 10vw;
 }
 .img-container img {
   border-radius: 50%;
